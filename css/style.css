@@ -33,6 +33,7 @@
     padding: 5px;
 }
 .js-select-operation:hover {
+    color: #000;
     background-color: rgb(177, 240, 158);
 }
 @media (max-width: 445.98px) {
@@ -47,6 +48,7 @@
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
+    color: #000;
     transition: all 0.3s ease 0s;
 }
 .js-btn-result:hover {
