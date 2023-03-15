@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+button,
+input {
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.wrapper {
+}
+.header {
+}
+.header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.header__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.header__title:not(:last-child) {
+    margin-bottom: 10px;
+}
+.header__input {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.js-input-a {
+    padding: 5px;
+    background-color: rgb(231, 230, 230);
+}
+.js-input-b {
+    padding: 5px;
+    background-color: rgb(231, 230, 230);
+}
+.js-select-operation {
+    background-color: rgb(204, 250, 190);
+    padding: 5px;
+}
+.js-select-operation:hover {
+    background-color: rgb(177, 240, 158);
+}
+@media (max-width: 445.98px) {
+    .js-select-operation {
+        margin-top: 10px;
+    }
+}
+.js-btn-result {
+    max-width: 100px;
+    font-weight: 600;
+    background-color: rgba(127, 133, 255, 0.533); 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    transition: all 0.3s ease 0s;
+}
+.js-btn-result:hover {
+    background-color: rgba(87, 92, 200, 0.533);
+}
+.js-output {
+    max-width: min-content;
+    background-color: rgba(184, 187, 252, 0.533);
+    padding: 5px;
+}
